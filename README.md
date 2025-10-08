@@ -79,3 +79,19 @@ git push -u origin main
 git status
 ```
 
+## Step 19: Repeart step 08
+
+## Step 20: Proper commit message
+```bash
+    git commit -m "Update the steps doc"
+```
+
+## Step 21: Push the changes the existing branch
+```bash
+    git push
+```
+
+## Step 22: Create a new branceh called `div` from main branch
+```bash
+    git checkout -b dev
+```
