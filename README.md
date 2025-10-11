@@ -100,3 +100,9 @@ git status
 ```bash
 git push -u origin dev
 ```
+
+## Step 24: Repeat step 08
+```bash
+# Navigate between branches
+git checkout main
+```
