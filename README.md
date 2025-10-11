@@ -102,7 +102,54 @@ git push -u origin dev
 ```
 
 ## Step 24: Repeat step 08
+
+## Step 25: Create a Pull request from Git and merge it to main
 ```bash
 # Navigate between branches
 git checkout main
+git checkout dev
+
+# Check the changes/status between local and remote
+git fetch
+
+# Checkout to main branch
+git checkout main
+
+# Pull the changes to local form remote mainbranch
+git pull
+
+git checkout
+
+# Stash changes temporary
+
+git stash
+
+# Apply stashed changes back
+git stash apply
+
+# Marge changes in dev branch to main
+
+git checkout main
+
+git merge dev
+
+git status
+
+git push
+```
+
+# Config git username and email
+
+```bash
+git config --global user.name "Your Name"
+
+# and
+
+git config --global user.email "youremail@email.com" 
+```
+# Check git config
+
+```bash
+git config user.name
+git config user.email
 ```
